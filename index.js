@@ -17,7 +17,7 @@ mongoose.connect('mongodb+srv://min:als622@boilerplate.i8mg4.mongodb.net/?retryW
   .catch(err => console.log(err));
 
 app.get('/', (req, res) => {
-  res.send('Hello World!')
+  res.send('Hello World! Hello Backend!')
 })
 
 app.post('/register', (req, res) => {
